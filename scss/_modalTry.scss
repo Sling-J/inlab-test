@@ -1,0 +1,124 @@
+.modal-try {
+   text-align: center;
+   padding: 40px 0;
+   border-radius: 10px;
+   
+   h2 {
+      font-size: $primary_font_size + 8px;
+      margin-bottom: 30px;
+   }
+
+   .field {
+      margin-bottom: 30px;
+
+      label {
+         position: relative;
+
+         i {
+            position: absolute;
+            color: #ff9500;
+            top: 2px;
+            left: 20px;
+         }
+   
+         input {
+            background: #eee;
+            padding: 10px 20px 10px 50px;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            width: 40%;
+         }
+      
+         input::-webkit-outer-spin-button,
+         input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+         }
+      }
+   }
+
+   .agree-box {
+      color: $primary_color;
+      padding-top: 30px;
+      border-top: 1px solid #ececec;
+
+      .agree-field {
+         margin-right: 20px;
+
+         i {
+            font-size: 26px;
+            cursor: pointer;
+         }
+
+         input[type="checkbox"] {
+            margin-right: 10px;
+         }
+      }      
+
+      p {
+         a {
+            text-decoration: underline;
+         }
+      }
+   }
+
+   .modal-submit {
+      margin: 30px 0;
+
+      button {
+         width: 50%;
+         border-radius: 5px;
+
+         &:disabled {
+            opacity: 0.5;
+         }
+      }
+   }
+
+   .forgot-pass a {
+      color: $primary_color;
+   }
+}
+
+.uk-modal-dialog {
+   width: 490px;
+}
+
+@media (max-width: 523px) {
+   .modal-try {
+      .field {
+         position: relative;
+         margin-bottom: 0;
+
+         label {
+            position: static;
+
+            input {
+               display: block;
+               background: none;
+               width: 40%;
+               padding-left: 40px;
+            }
+
+            i {
+               top: 10px;
+               left: 15px;
+            }
+         }
+      }
+   
+      .agree-box {   
+         width: 80%;
+         margin: 0 auto;
+
+         text-align: left;
+      }
+
+      .modal-submit {
+         button {
+            width: 80%;
+         }
+      }
+   }
+}

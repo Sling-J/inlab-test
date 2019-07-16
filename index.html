@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport"
+         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="shortcut icon" href="./img/logo.ico" type="image/x-icon">
+   <link rel="stylesheet" href="./css/uikit.min.css">
+   <link rel="stylesheet" href="./css/font-awesome.min.css">
+   <script src="./js/uikit.min.js"></script>
+   <script src="./js/uikit-icons.min.js"></script>
+   <link rel="stylesheet" href="./css/style.css">
+   <title>Meet</title>
+</head>
+<body>
+   <header>
+      <div class="wrapper">
+         <div class="header-logo flex j-sb flex-align-center">
+            <div class="header-language flex flex-align-center">
+               <img class="header-logo__img" src="./img/logo.png" alt="logo">
+               
+               <div class="uk-inline header-language__box">
+                  <button>Русский</button>
+                  <div class="header-language-dropdown" uk-dropdown>
+                     <ul>
+                        <li>Казахский</li>
+                        <li>Английский</li>
+                     </ul>
+                  </div>
+              </div>
+
+              <div class="uk-inline responsive-header-language">
+                  <button>Ru</button>
+                  <div class="header-language-dropdown" uk-dropdown="mode: click">
+                     <ul>
+                        <li>Kz</li>
+                        <li>Eng</li>
+                     </ul>
+                  </div>
+              </div>
+            </div>
+            
+            <div class="header-download">
+               <a class="flex flex-align-center text-decor-none transition" href="#">
+                  <p class="header-download__icon">
+                     <img src="./img/google-play.png" alt="google play">
+                  </p>
+                  <p class="header-download__desc">
+                     Загрузить
+                     <span>Google Play</span>
+                  </p>
+               </a>
+            </div>
+         </div>
+
+         <div class="header-body flex j-sb">
+            <div class="header-info info-position-l">
+               <h1 class="header-info__title text-title">Танысайық</h1>
+
+               <p class="header-info__desc text-desc">
+                  Находите новых друзей, влюбляйтесь,
+                  общайтесь вместе с сервисом онлайн
+                  знакомств.
+               </p>
+
+               <a class="responsive-header-info__call text-decor-none transition" href="#">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  Звони 7889 прямо сейчас
+               </a>
+
+               <button class="header-info__signin main-btn transition" uk-toggle="target: #modal-try">Войти</button>
+            </div>
+            <div class="header-img img-position-adaptive">
+               <img src="./img/Group 3.svg" alt="meet">
+            </div>
+         </div>
+      </div>
+
+      <div class="header-wave">
+         <svg id="Layer_1" viewBox="0 0 1416.99 174.01">
+            <path class="cls-1" d="M0,280.8S283.66,59,608.94,163.56s437.93,150.57,808,10.34V309.54H0V280.8Z" transform="translate(0 -135.53)" />
+         </svg>
+      </div>
+   </header>
+   
+   <section class="responsive-example-section">
+      <div class="wrapper">
+         <div class="responsive-example-box">
+            <div class="responsive-example-box-messages">
+               <div class="responsive-example-box-messages__item flex flex-align-bottom">
+                  <div class="responsive-example-box-avatar">
+                     <img src="./img/avatar2.svg" alt="avatar">
+                  </div>
+                  <div class="responsive-example-box-message">
+                     <p class="responsive-example-box-message__text">
+                        Всем привет
+                        <span class="responsive-example-box-message__author">Ola</span>
+                     </p>
+                  </div>
+                  <p class="responsive-example-box-date">12:37</p>
+               </div>
+
+               <div class="responsive-example-box-messages__item flex flex-align-bottom">
+                  <div class="responsive-example-box-avatar">
+                     <img src="./img/avatar3.svg" alt="avatar">
+                  </div>
+                  <div class="responsive-example-box-message">
+                     <p class="responsive-example-box-message__text">
+                        Привет ребята
+                        <span class="responsive-example-box-message__author">lola37</span>
+                     </p>
+                  </div>
+                  <p class="responsive-example-box-date">13:44</p>
+               </div>
+
+               <div class="responsive-example-box-messages__item flex flex-align-bottom">
+                  <p class="responsive-example-box-date">13:44</p>
+                  <div class="responsive-example-box-message">
+                     <p class="responsive-example-box-message__text">
+                        Всем привет, давайте общайться
+                        <span class="responsive-example-box-message__author">vova</span>
+                     </p>
+                  </div>
+                  <div class="responsive-example-box-avatar">
+                     <img src="./img/avatar4.svg" alt="avatar">
+                  </div>
+               </div>
+
+               <div class="responsive-example-box-messages__item flex flex-align-bottom">
+                  <div class="responsive-example-box-avatar">
+                     <img src="./img/avatar5.svg" alt="avatar">
+                  </div>
+                  <div class="responsive-example-box-message">
+                     <p class="responsive-example-box-message__text">
+                        Эээ, давай со мной общаяться я интереснее
+                        <span class="responsive-example-box-message__author">lola37</span>
+                     </p>
+                  </div>
+                  <p class="responsive-example-box-date">14:50</p>
+               </div>
+            </div>
+            
+            <p class="responsive-example-box-send flex j-sb flex-align-center">
+               <span>Сообщение ... </span>
+               <i class="fa fa-envelope" aria-hidden="true"></i>
+            </p>
+         </div>
+      </div>
+   </section>
+
+   <section class="picture-section">
+      <div class="wrapper">
+         <div class="picture-box flex j-sb flex-align-center">
+            <div class="responsive-picture-box picture-box__info info-position-r">
+               <h2 class="picture-box__title text-title">Смотри фото</h2>
+
+               <p class="picture-box__desc text-desc">Сдвигай вправо, если фото нравится.</p>
+
+               <button class="picture-box__btn main-btn transition" uk-toggle="target: #modal-try">Попробовать</button>
+            </div>
+
+            <div class="picture-box__img img-position-adaptive">
+               <img src="./img/Group 4.svg" alt="picture">
+            </div>
+   
+            <div class="picture-box__info info-position-r">
+               <h2 class="picture-box__title text-title">Смотри фото</h2>
+
+               <p class="picture-box__desc text-desc">Сдвигай вправо, если фото нравится.</p>
+
+               <button class="picture-box__btn main-btn transition" uk-toggle="target: #modal-try">Попробовать</button>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="find-section">
+      <div class="wrapper">
+         <div class="find-box flex j-sb flex-align-center">
+            <div class="find-box__info info-position-l">
+               <h2 class="find-box__title text-title">Находи</h2>
+
+               <p class="find-box__desc text-desc">
+                  Ты можешь выбрать возраст и пол тех,
+                  чьи фото смотришь. И найти собеседника в своем городе.
+               </p>
+            </div>
+
+            <div class="find-box__img img-position-adaptive">
+               <img src="./img/Group 5.svg" alt="find">
+            </div>
+         </div>
+      </div>
+
+      <div class="stock">
+         <div class="stock-box">
+            <h2 class="text-title">Акция</h2>
+
+            <p class="text-desc">Текст для акций</p>
+   
+            <button class="stock-btn main-btn transition" uk-toggle="target: #modal-try">Попробовать</button>
+         </div>
+      </div>
+   </section>
+
+   <section class="communicate-section">
+      <div class="wrapper">
+         <div class="communicate-overlay-users">
+            <img src="./img/avatar 1.svg" alt="communicate-user">
+            <img src="./img/avatar2.svg" alt="communicate-user">
+            <img src="/img/avatar3.svg" alt="communicate-user">
+            <img src="/img/avatar4.svg" alt="communicate-user">
+            <img src="/img/avatar5.svg" alt="communicate-user">
+            <img src="/img/avatar6.svg" alt="communicate-user">
+         </div>
+         <div class="communicate-box flex j-sb">
+            <div class="communicate-box__info info-position-l">
+               <h2 class="communicate-box__title text-title">Общайся</h2>
+   
+               <p class="communicate-box__desc text-desc">
+                  Если вы друг другу понравились, начинайте
+                  общайться. Чат становится доступным!
+               </p>
+            </div>
+   
+            <div class="communicate-box__img info-position-r img-position-adaptive">
+               <img src="./img/Group 2.svg" alt="communicate">
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <footer>
+      <div class="wrapper">
+         <div class="footer-box flex j-sb">
+            <ul class="footer-list flex text-desc">
+               <li>О проекте</li>
+               <li>Пользовательское соглашение</li>
+               <li>Язык</li>
+            </ul>
+
+            <p class="text-desc">&copy; 2017 meet.kz</p>
+         </div>
+      </div>
+   </footer>
+
+   <div id="modal-try" uk-modal>
+      <div class="uk-modal-dialog modal-try uk-modal-body">
+         <button class="uk-modal-close-default" type="button" uk-close></button>
+
+         <h2 class="text-desc">Войдите в аккаунт</h2>
+
+         <form>
+            <p class="field">
+               <label>
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <input type="number" placeholder="+7 (___) __ __ ___">
+               </label>
+            </p>
+            
+            <div class="agree-box flex flex-align-center j-center">
+               <div class="agree-field">
+                  <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                  <input type="checkbox" hidden>
+               </div>
+               <p>Я согласен с <a href="#">пользовательским соглашением</a></p>
+            </div>
+
+            <div class="modal-submit">
+               <button id="modal-submit-btn" class="main-btn transition" disabled>Далее</button>
+            </div>
+
+            <div class="forgot-pass">
+               <a href="#">Забыли пароль?</a>
+            </div>
+         </form>
+      </div>
+   </div>
+
+   
+   <script src="./js/main.js"></script>
+</body>
+</html>
