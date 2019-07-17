@@ -16,11 +16,11 @@ document.addEventListener('DOMContentLoaded', () => {
          }
 
          checkbox.checked = !checkbox.checked;
-         checkbox.checked ? 
+         checkbox.checked ?
             modalSubmitBtn.disabled = false :
             modalSubmitBtn.disabled = true
       })
    }
 
-   checkAgree(modalTry)
+   checkAgree(modalTry);
 });
